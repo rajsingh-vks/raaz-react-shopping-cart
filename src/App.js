@@ -1,9 +1,10 @@
-// feature 1
 import React, { Component } from 'react'
 import data from './data.json';
 import Products from './components/Products';
 import Filter from './components/Filter';
 import Cart from './components/cart';
+import store from './store/store/store';
+import { Provider } from 'react-redux';
 
 export class App extends Component {
   constructor(){
@@ -88,6 +89,7 @@ export class App extends Component {
 
   render() {
   return (
+    <Provider store={store}>
     <div className="grid-container">
       <header>
         <a href="/">Shopping Cart</a>
@@ -115,6 +117,7 @@ export class App extends Component {
       </main>
       <footer>All right is reserved.</footer>
     </div>
+    </Provider>
   );
  }
 }
