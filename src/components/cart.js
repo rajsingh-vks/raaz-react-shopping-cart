@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import formatCurrency from '../util';
 import Fade from 'react-reveal/Fade';
+import {connect} from 'react-redux';
+import { removeFromCart } from '../store/actions/cartActions';
+
 
 export class cart extends Component {
     constructor(props){
@@ -114,4 +117,10 @@ export class cart extends Component {
     }
 }
 
-export default cart
+// export default cart
+export default connect((state) => ({
+    cartItems: state.cart.cartItems,
+  }),
+  {
+    removeFromCart
+  }) ( cart );
