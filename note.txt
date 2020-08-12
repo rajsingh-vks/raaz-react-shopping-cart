@@ -1,0 +1,4 @@
+HV9Wb01voLVNZi77
+
+
+mongodb+srv://shopping-cart-test:HV9Wb01voLVNZi77@cluster0.ogxfk.mongodb.net/<dbname>?retryWrites=true&w=majority
