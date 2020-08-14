@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Orders from '../Orders';
+import Orders from '../components/Orders';
 
 export class AdminScreen extends Component {
     render() {

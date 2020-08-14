@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 import store from './store/store/store';
 import { Provider } from 'react-redux';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
-import HomeScreen from './components/screens/HomeScreen';
-import AdminScreen from './components/screens/AdminScreen';
+import HomeScreen from './screens/HomeScreen';
+import AdminScreen from './screens/AdminScreen';
 
 export class App extends Component {
   render() {
