@@ -13,7 +13,7 @@ export class App extends Component {
       <BrowserRouter>
         <div className="grid-container">
           <header>
-            <Link to="/">Shopping Cart</Link>
+            <Link to="/">Shopping Cart Eccomerce</Link>
             <Link to="/admin">Admin</Link>
           </header>
           <main>
