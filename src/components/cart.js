@@ -39,7 +39,7 @@ class Cart extends Component {
     return (
       <div>
         {cartItems.length === 0 ? (
-          <div className="cart cart-header">Cart is empty</div>
+          <div className="cart cart-header">Cart is Empty</div>
         ) : (
           <div className="cart cart-header">
             You have {cartItems.length} in the cart{" "}
